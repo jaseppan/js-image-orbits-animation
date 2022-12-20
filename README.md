@@ -19,16 +19,3 @@ Place your images in the assets/images/ directory and define the filenames and m
 ### Changing hover and click effect
 
 Define used effects for click events in clickEffects constant in assets/orbits.js file.
-
-
-
-
-
-
-
-
-
-
-
-
-`
