@@ -1,5 +1,4 @@
-# 
-JS Image Orbits Animation
+# JS Image Orbits Animation
 This package adds an animation of orbits of images to a HTML element.
 
 ## Installation and use
