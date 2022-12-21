@@ -6,7 +6,7 @@ This package adds an animation of orbits of images to a HTML element.
 
 You can install the package by cloning the repository to the directory of your choice with the following command.
 
-´clone ´
+´git clone https://github.com/jaseppan/js-image-orbits-animation.git´
 
 After installation open the location with your browser
 
