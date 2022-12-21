@@ -131,15 +131,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Choose effect ranbomly if it is object
     if(  typeof(effect) == 'object' ) {
-        effectNum = getRandomInt( effect.length );
-        currentEffect = effect[effectNum];
+        var effectNum = getRandomInt( effect.length );
+        var currentEffect = effect[effectNum];
         classTarget = currentEffect.target;
         timeOut = currentEffect.timeOut;
         effect = currentEffect.effect;
     }
     
-    if( classTarget == 'child' ) {
-        nodeList = elem.childNodes;
+    if( classTarget === 'child' ) {
+        var nodeList = elem.childNodes;
         elem = nodeList[0];
     }
 
